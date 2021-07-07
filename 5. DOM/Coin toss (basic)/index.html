@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title> Co!nfl!p </title>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+        <!-- <i class="fas fa-circle" style="color: #FFBB91;"></i> -->
+        <!-- <i class="fas fa-circle" style="color: #CCF2F4;"></i> -->
+        <h1 class="top-heading" id="verdict"> 💰 Co!n-Fl!p 🔁 </h1>
+    </div>
+    <!-- <i class="fas fa-flag-checkered"></i> -->
+
+    <!-- <div class="d-grid gap-2">
+      <button type="button" onclick="result()" id="flip-it" class="btn btn-outline-info"> Fl!p !t </button>
+      </div> -->
+
+    <div class="fluid-container">
+      <div class="row">
+        <div class="col-lg-5 p1">
+            <h3 class="player-title player-title-1"> <i class="fas fa-user-circle"></i> Player 1 </h3>
+            <div class="dropdown">
+                <button class="btn btn-outline-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select your choice
+                </button>
+                <ul class="dropdown-menu" id="list1" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" onclick="select1(id)" id="head1" href="#">Heads</a></li>
+                  <li><a class="dropdown-item" onclick="select1(id)" id="tail1" href="#">Tails</a></li>
+                </ul>
+              </div>
+              <img id="coin1" src="images/coin.png" class="coin coin-1" alt="">
+        </div>
+        <div class="col-lg-2">
+          <h2 class="vs" >V/S</h2>
+        </div>
+        <div class="col-lg-5 p2">
+            <h3 class="player-title player-title-2"> <i class="far fa-user-circle"></i> Player 2 </h3>
+            <div class="dropdown">
+                <button class="btn btn-outline-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select your choice
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" onclick="select2(id)" id="head2" href="#">Heads</a></li>
+                  <li><a class="dropdown-item" onclick="select2(id)" id="tail2" href="#">Tails</a></li>
+                </ul>
+              </div>
+              <img id="coin2" src="images/coin.png" class="coin coin-2" alt="">
+        </div>
+    </div>
+    </div>
+
+    <div class="d-grid gap-2">
+      <button type="button" onclick="result()" id="flip-it" class="btn btn-outline-info"> Fl!p !t </button>
+      </div>
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

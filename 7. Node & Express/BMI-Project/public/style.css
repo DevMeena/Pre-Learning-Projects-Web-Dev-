@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-color: #5c33f6;
+}
+
+.title-heading {
+  font-size: 5rem;
+  font-family: "Dela Gothic One", cursive;
+  color: #ff94cc;
+}
+
+.title-heading-1 {
+  font-size: 4rem;
+  font-family: "Dela Gothic One", cursive;
+  color: #ff94cc;
+}
+
+.title-sub-heading {
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #f0d9e7;
+  margin-top: 30px;
+}
+
+.title-sub-heading-1 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #f0d9e7;
+  margin-top: 30px;
+}
+
+button {
+  margin: 30%;
+  width: 20%;
+  height: 30%;
+}
+
+.sector {
+  margin-top: 50px;
+}
+
+label {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+.page-2-button {
+  margin: auto;
+  width: 150px;
+  height: 50px;
+}
+
+.special-message {
+  padding: 7%;
+  color: wheat;
+  font-size: 2.5rem;
+}
+
+.result-bmi {
+  padding: 5%;
+  font-size: 3rem;
+}

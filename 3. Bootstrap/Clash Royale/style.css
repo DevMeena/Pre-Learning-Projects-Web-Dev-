@@ -1,0 +1,307 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+/* title section  */
+
+.title-section {
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: "Recursive", sans-serif;
+  /* padding: 0; */
+}
+
+.title-division {
+  padding-left: 0;
+  padding-right: 0;
+}
+.blue-colored {
+  background-color: #185adb;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffc947;
+}
+
+.navbar-toggler:hover {
+  color: #ffc947;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.mr-auto {
+  margin-right: 0;
+}
+.navbar-toggleable-md .navbar-collapse {
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+@font-face {
+  font-family: "Supercell-Magic";
+  src: url(fonts/supercell-magic-webfont.ttf);
+}
+
+.title-text {
+  font-family: Supercell-Magic;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.product-image {
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 30px;
+}
+
+.product-image:hover {
+  transform: rotate(0deg);
+}
+
+/* features  */
+
+.features {
+  background-color: #fff;
+  text-align: center;
+  /* padding: 3% 15%; */
+  position: relative;
+}
+
+.feature-block {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.fa-3x {
+  margin: 30px;
+  color: #ffc947;
+}
+
+.fa-3x:hover {
+  color: #ffc107;
+}
+
+.sub-title {
+  font-family: Supercell-Magic;
+  font-size: 1.5rem;
+}
+
+.feature-desc {
+  font-family: "Recursive", sans-serif;
+  line-height: 1.5;
+  margin: 5px;
+  padding: 10px;
+  color: #343a40;
+}
+
+/* testimonial section */
+
+.testmonial-section {
+  /* background-color: #488bf4; */
+  background-color: #0a1931;
+  text-align: center;
+  color: #fff;
+}
+
+.reviews {
+  font-family: "Recursive", sans-serif;
+  line-height: 2;
+  /* padding: 30px; */
+  font-weight: 900;
+}
+
+em {
+  color: #feddbe;
+  padding: 3px;
+  /* float: right; */
+  /* text-align: right; */
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-members {
+  width: 100px;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+.testimonial-sponsers {
+  width: 100px;
+  /* margin-top: 30px; */
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 75px;
+}
+
+/* news section */
+
+.news {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.card {
+  padding: 0;
+  margin-top: 30px;
+}
+
+.news-heading {
+  font-family: Supercell-Magic;
+  font-size: 1.7rem;
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
+.card-title {
+  font-family: Supercell-Magic;
+  font-size: 1rem;
+  padding: 2px;
+}
+
+.news p {
+  font-family: "Recursive", sans-serif;
+  padding: 3px;
+  color: #364547;
+}
+
+.read-more {
+  margin: 0;
+  color: #feddbe;
+}
+
+/* download */
+
+.download-sector {
+  /* background-color: #185adb; */
+  background-image: url(images/clash-royale-blue-king-hd-qhd-1366x768.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+.download-title {
+  font-family: Supercell-Magic;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.download-title:hover {
+  color: #ffc947;
+}
+
+/* footer */
+
+.footer-area {
+  background-color: #000;
+}
+
+.footer-rule {
+  color: white;
+}
+
+.social-icon {
+  color: white;
+  margin: 7px;
+}
+
+.social-icon:hover {
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.copyright-msg {
+  color: gray;
+  padding-bottom: 50px;
+  /* position: relative; */
+  display: inline-block;
+}
+
+.supercell-logo {
+  width: 100px;
+  float: right;
+  /* position: relative; */
+}
+
+/* media queries  */
+
+@media (max-width: 1028px) {
+  .product-image {
+    transform: rotate(0deg);
+    margin: 0;
+    padding: 0;
+    padding-left: auto;
+    padding-right: auto;
+    position: static;
+  }
+  /* .title-text {
+    text-align: center;
+  } */
+  .title-section {
+    text-align: center;
+  }
+
+  .supercell-logo {
+    width: 100px;
+    /* visibility: hidden; */
+    display: none;
+    clear: both;
+    position: relative;
+  }
+  .copyright-msg {
+    color: gray;
+    position: relative;
+    /* float: right; */
+  }
+  /* 
+  .mobile-preview {
+    padding: 0;
+    position: relative;
+  } */
+
+  .footer-area {
+    text-align: center;
+  }
+
+  em {
+    color: #feddbe;
+    /* float: right; */
+    /* margin: auto; */
+    /* text-align: center; */
+  }
+
+  #title-division {
+    padding: 0;
+  }
+
+  /* .title-section {
+    padding: 0;
+  } */
+}

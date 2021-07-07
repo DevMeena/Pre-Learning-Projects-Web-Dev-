@@ -1,0 +1,21 @@
+<% if (post.content.length > 100) { %>
+<% } %>
+<% /* <% } else { %> <p><%= post.content + "..." %></p> */ %>
+
+
+if(posts.find(post => dynamicURL === _.lowerCase(post.title))){
+        let blog = posts.find(post => dynamicURL === _.lowerCase(post.title)); // storing the post object
+        res.render("post",{
+            title: blog.title,
+            content: blog.content
+        });
+    }
+    else
+    {
+        console.log("error 404");
+    }
+
+
+    // checking if dynamic url exits or not
+
+    // const dynamicURL = _.lowerCase(req.params.postId); // converting url to lowercase

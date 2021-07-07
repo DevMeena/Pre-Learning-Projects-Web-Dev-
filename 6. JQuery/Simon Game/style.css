@@ -1,0 +1,66 @@
+body {
+  background-color: #290149;
+  text-align: center;
+}
+
+.over {
+  background-color: #da5c53;
+  /* opacity: 0.8; */
+}
+
+.pass {
+  background-color: #306d75;
+}
+
+@font-face {
+  font-family: "llpixel";
+  src: url("font/LLPIXEL3.ttf");
+}
+
+h1 {
+  color: #ffbe0f;
+  font-size: 5rem;
+  font-family: llpixel;
+  margin-top: 10px;
+}
+
+.box {
+  margin: 25px;
+  display: inline-block;
+  height: 175px;
+  width: 175px;
+  border: 10px solid black;
+  border-radius: 100%;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.hello {
+  background-color: red;
+  border: #ffbe0f;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="disco.png">
+</head>
+<body>
+    <section> <h1 class="title" > Press Any Key to Start! </h1> </section>
+    <!-- buttons can be used instead of div but they can be a little bogous -->
+    <div class="container"> 
+        <div class="row">
+            <div type="button" id="green" class="box green"></div>
+            <div type="button" id="red" class="box red"></div>
+        </div>     
+
+        <div class="row">
+            <div type="button" id="yellow" class="box yellow"></div>
+            <div type="button" id="blue" class="box blue"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

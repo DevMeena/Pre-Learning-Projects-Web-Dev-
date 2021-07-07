@@ -1,0 +1,65 @@
+body {
+  background-color: #022e57;
+  text-align: center;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.top-heading {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Sedgwick Ave Display", cursive;
+  /* font-family: "Nerko One", cursive; */
+  font-size: 6rem;
+  padding: 50px;
+  color: #f875aa;
+  letter-spacing: 2px;
+}
+
+.p1 {
+  text-align: center;
+}
+
+.p2 {
+  text-align: center;
+}
+
+.player-title {
+  padding: 30px;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.player-title-1 {
+  color: #ffbb91;
+}
+
+.player-title-2 {
+  color: #ccf2f4;
+}
+
+.fa-user-circle {
+  font-size: 2.5rem;
+}
+
+#dropdownMenuButton1 {
+  color: #f9f9f9;
+}
+
+#dropdownMenuButton2 {
+  color: #f9f9f9;
+}
+
+.coin {
+  width: 250px;
+  margin: 50px;
+}
+
+.vs {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
